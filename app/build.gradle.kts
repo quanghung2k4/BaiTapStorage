@@ -38,10 +38,18 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation ("androidx.room:room-runtime:2.6.1")
     annotationProcessor ("androidx.room:room-compiler:2.6.1")
     implementation("de.hdodenhof:circleimageview:3.1.0")
+
+    // Thư viện load ảnh (Glide)
+    implementation("com.github.bumptech.glide:glide:4.15.1")
+    // Material Design cho UI đẹp
+    implementation("com.google.android.material:material:1.9.0")
 }
